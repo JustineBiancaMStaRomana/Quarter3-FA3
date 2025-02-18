@@ -53,3 +53,5 @@ function timeGet(){
     h = Math.floor(t/60);
     m = t%60;
 }
+
+//jbsrizkewl
