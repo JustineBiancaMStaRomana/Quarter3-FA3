@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* font insert */
+@font-face {
+    font-family: lcars;
+    src: url(Okuda-A5PL.ttf);
+}
+@font-face {
+    font-family: lcarsBold;
+    src: url(OkudaBold-qA72.ttf);
+}
+
+h1{
+    font-family: lcarsBold;
+    font-size: 5em;
+    color:#ffaa00;
+}
+
+p{
+    font-family: lcars;
+    font-size: 3em;
+    color:#cc99ff;
+}
+
+li{
+    display: inline;
+    padding: 0.2em;
+    margin: 0.5em;
+
+    font-family: lcars;
+    font-size: 3em;
+    color:#88ffff;
+}
+
+input{
+    font-family: lcars;
+    font-size: 3em;
+}
+
+/*buttons*/
+button{
+    font-size: 2em;
+    font-family: lcars;
+    text-align: right;
+
+    background-color:#99dd66;
+
+    margin: 1em 0.5em;
+    padding: 0.2em 0.8em 0.2em 0em;
+    border: none;
+    border-radius: 36px;
+    width: 3em;
+}
